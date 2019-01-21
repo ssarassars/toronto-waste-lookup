@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+#gradtitle {
+  height: 120px;
+  width: 100%;
+  z-index: -1;
+  background-color: steelblue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,steelblue, mediumseagreen); /* Standard syntax (must be last) */
+}
+
+h1{
+  color: white;
+  top: 25%;
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
